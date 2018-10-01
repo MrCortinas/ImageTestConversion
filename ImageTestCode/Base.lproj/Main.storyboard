@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ImageTestCode" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zF2-GK-IJK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLU-7D-2yG">
+                                        <rect key="frame" x="8" y="231" width="300" height="100"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="DXd-z9-1fP"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDg-m9-B3c">
+                                        <rect key="frame" x="8" y="344" width="160" height="60"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="b3f-Tr-i4X"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1KW-Zo-blT">
+                                        <rect key="frame" x="228" y="344" width="80" height="60"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f6M-31-A7U">
+                                        <rect key="frame" x="8" y="28" width="300" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="gWQ-yI-ogO"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XZ5-4Z-kyg">
+                                        <rect key="frame" x="8" y="136" width="160" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="3RD-XK-nRX"/>
+                                            <constraint firstAttribute="width" constant="160" id="hBN-x8-4xZ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wL9-CR-ufz">
+                                        <rect key="frame" x="228" y="136" width="80" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="TKg-cP-1XJ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="600px-Citibank.svg" translatesAutoresizingMaskIntoConstraints="NO" id="nlf-Xi-bKR">
+                                        <rect key="frame" x="8" y="438" width="300" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="oIS-FP-J0Z"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="600px-Citibank.svg" translatesAutoresizingMaskIntoConstraints="NO" id="vlj-vN-jK4">
+                                        <rect key="frame" x="8" y="546" width="160" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="4d9-pL-9br"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="600px-Citibank.svg" translatesAutoresizingMaskIntoConstraints="NO" id="GMd-dA-qDH">
+                                        <rect key="frame" x="228" y="546" width="80" height="60"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="vlj-vN-jK4" secondAttribute="bottom" constant="61" id="98g-JT-jsf"/>
+                                    <constraint firstItem="nlf-Xi-bKR" firstAttribute="top" secondItem="NDg-m9-B3c" secondAttribute="bottom" constant="34" id="BOn-aZ-6HN"/>
+                                    <constraint firstItem="nlf-Xi-bKR" firstAttribute="trailing" secondItem="GMd-dA-qDH" secondAttribute="trailing" id="CKf-SX-ifr"/>
+                                    <constraint firstItem="XZ5-4Z-kyg" firstAttribute="bottom" secondItem="wL9-CR-ufz" secondAttribute="bottom" id="DA4-OF-wKD"/>
+                                    <constraint firstItem="NDg-m9-B3c" firstAttribute="leading" secondItem="nlf-Xi-bKR" secondAttribute="leading" id="DSY-Io-AtZ"/>
+                                    <constraint firstItem="wL9-CR-ufz" firstAttribute="leading" secondItem="XZ5-4Z-kyg" secondAttribute="trailing" constant="60" id="EFI-XB-jJF"/>
+                                    <constraint firstItem="XZ5-4Z-kyg" firstAttribute="top" secondItem="f6M-31-A7U" secondAttribute="bottom" constant="8" symbolic="YES" id="Fqe-fA-Ejy"/>
+                                    <constraint firstItem="wL9-CR-ufz" firstAttribute="trailing" secondItem="XLU-7D-2yG" secondAttribute="trailing" id="G6o-u9-DmM"/>
+                                    <constraint firstItem="f6M-31-A7U" firstAttribute="top" secondItem="zF2-GK-IJK" secondAttribute="topMargin" id="Ghs-v0-nWB"/>
+                                    <constraint firstItem="XZ5-4Z-kyg" firstAttribute="leading" secondItem="XLU-7D-2yG" secondAttribute="leading" id="Gi9-xH-afJ"/>
+                                    <constraint firstItem="XLU-7D-2yG" firstAttribute="trailing" secondItem="1KW-Zo-blT" secondAttribute="trailing" id="HxD-R1-gby"/>
+                                    <constraint firstItem="f6M-31-A7U" firstAttribute="leading" secondItem="zF2-GK-IJK" secondAttribute="leadingMargin" id="ILD-br-hUi"/>
+                                    <constraint firstItem="XZ5-4Z-kyg" firstAttribute="top" secondItem="wL9-CR-ufz" secondAttribute="top" id="Rww-PU-j9C"/>
+                                    <constraint firstItem="NDg-m9-B3c" firstAttribute="bottom" secondItem="1KW-Zo-blT" secondAttribute="bottom" id="RyQ-RB-2Dg"/>
+                                    <constraint firstItem="wL9-CR-ufz" firstAttribute="leading" secondItem="1KW-Zo-blT" secondAttribute="leading" id="Sic-UQ-Icw"/>
+                                    <constraint firstItem="1KW-Zo-blT" firstAttribute="trailing" secondItem="nlf-Xi-bKR" secondAttribute="trailing" id="TLn-8U-r2t"/>
+                                    <constraint firstItem="NDg-m9-B3c" firstAttribute="top" secondItem="XLU-7D-2yG" secondAttribute="bottom" constant="13" id="VH3-xo-st1"/>
+                                    <constraint firstItem="XLU-7D-2yG" firstAttribute="leading" secondItem="NDg-m9-B3c" secondAttribute="leading" id="Wky-dn-PMt"/>
+                                    <constraint firstItem="NDg-m9-B3c" firstAttribute="trailing" secondItem="vlj-vN-jK4" secondAttribute="trailing" id="daQ-Vk-TQK"/>
+                                    <constraint firstItem="f6M-31-A7U" firstAttribute="trailing" secondItem="wL9-CR-ufz" secondAttribute="trailing" id="ftI-qo-qBc"/>
+                                    <constraint firstItem="XLU-7D-2yG" firstAttribute="top" secondItem="XZ5-4Z-kyg" secondAttribute="bottom" constant="35" id="gSR-I3-yH8"/>
+                                    <constraint firstItem="nlf-Xi-bKR" firstAttribute="leading" secondItem="vlj-vN-jK4" secondAttribute="leading" id="ig3-2W-kz6"/>
+                                    <constraint firstItem="NDg-m9-B3c" firstAttribute="top" secondItem="1KW-Zo-blT" secondAttribute="top" id="nGv-Nl-aDV"/>
+                                    <constraint firstAttribute="trailing" secondItem="f6M-31-A7U" secondAttribute="trailing" constant="67" id="ooK-Sv-Bvd"/>
+                                    <constraint firstItem="1KW-Zo-blT" firstAttribute="leading" secondItem="GMd-dA-qDH" secondAttribute="leading" id="p7N-My-ovf"/>
+                                    <constraint firstItem="vlj-vN-jK4" firstAttribute="top" secondItem="nlf-Xi-bKR" secondAttribute="bottom" constant="8" symbolic="YES" id="qyO-AD-pEe"/>
+                                    <constraint firstItem="XZ5-4Z-kyg" firstAttribute="trailing" secondItem="NDg-m9-B3c" secondAttribute="trailing" id="r4K-SV-IoJ"/>
+                                    <constraint firstItem="f6M-31-A7U" firstAttribute="leading" secondItem="XZ5-4Z-kyg" secondAttribute="leading" id="viA-1I-Igo"/>
+                                    <constraint firstItem="vlj-vN-jK4" firstAttribute="top" secondItem="GMd-dA-qDH" secondAttribute="top" id="z3U-kx-ENM"/>
+                                    <constraint firstItem="vlj-vN-jK4" firstAttribute="bottom" secondItem="GMd-dA-qDH" secondAttribute="bottom" id="zsC-ZX-BKp"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32156862745098042" green="0.73333333333333328" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="zF2-GK-IJK" secondAttribute="trailing" id="45M-Yj-rsT"/>
+                            <constraint firstItem="zF2-GK-IJK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="R0h-wL-HvY"/>
+                            <constraint firstItem="zF2-GK-IJK" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="i4s-sJ-oOf"/>
+                            <constraint firstItem="zF2-GK-IJK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kpL-Aw-egG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="bigImageview" destination="f6M-31-A7U" id="Z4x-jI-PfG"/>
+                        <outlet property="haftviewsize" destination="NDg-m9-B3c" id="aAT-pa-VNP"/>
+                        <outlet property="normalViewzise" destination="XLU-7D-2yG" id="HZE-kQ-5Fc"/>
+                        <outlet property="smallImageview" destination="XZ5-4Z-kyg" id="NSS-qv-Rh5"/>
+                        <outlet property="smallViewSize" destination="1KW-Zo-blT" id="qDU-EQ-BzO"/>
+                        <outlet property="tinyImageView" destination="wL9-CR-ufz" id="rrl-lF-IHF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="600px-Citibank.svg" width="600" height="162"/>
+    </resources>
+</document>
